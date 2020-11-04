@@ -1,4 +1,5 @@
 # Working-with-DOM
+https://greenkrok.github.io/Working-with-DOM/
 
 Вывод модального окна.
 Скачать заготовку по ссылке;
