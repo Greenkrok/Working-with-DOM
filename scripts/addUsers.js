@@ -37,3 +37,14 @@ let data = [
         </tr>`;
     } 
  }
+
+let $btnOk = document.getElementsByClassName('btn ok')[0];
+$btnOk.addEventListener('click', function () {
+    let newUser = [{
+        firstName: document.querySelector('input[name="first-name"]').value,
+        lastName: document.querySelector('input[name="last-name"]').value,
+        age: document.querySelector('input[name="age"]').value
+    }]
+    data.push(newUser);
+    tableDrow(newUser);
+});
