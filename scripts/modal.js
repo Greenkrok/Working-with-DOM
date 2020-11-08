@@ -37,4 +37,3 @@ $btnClose.addEventListener('click', function() {
         input.value = '';
     };
 });
-
