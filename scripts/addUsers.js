@@ -47,4 +47,5 @@ $btnOk.addEventListener('click', function () {
     }]
     data.push(newUser);
     tableDrow(newUser);
+    document.getElementsByClassName('modal')[0].classList.remove('open');
 });
